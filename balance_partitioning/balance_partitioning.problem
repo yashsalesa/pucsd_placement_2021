@@ -1,0 +1,19 @@
+Balance partitioning of an array
+
+Consider a sequence of N integers where the Kth value is defined as (2K + 4)
+Sample values [4, 6, 8, 10, 12, 14, 16, 18, 20, 22, 24, 26, 28 ...] 
+
+Input N as the length of this sequence, return the index I such that sum of all values to left of I is as close as possible to sum of the values to the right.
+
+Sample ./a.out 10     Output: 7    
+
+Explanation
+Sequence: N = 10 
+[4, 6, 8, 10, 12, 14, 16, 18, 20, 22]
+
+Partitioning at I = 6
+Partitions [4, 6, 8, 10, 12, 14] and [18, 20, 22]  
+Left sum 54
+Right sum 60
+
+Calculate the balance partition for N as 50, 1000, 10000, 100000

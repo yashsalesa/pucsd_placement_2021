@@ -1,7 +1,7 @@
 Calculate the minimum angle between hour hand and minute hand on a standard clock.
   
 Your program must accept the parameters from the command line as hour and minute value and return the angle between them in degrees rounded off to 2 decimal digits.
-Sample ./a.out 09 00   Output 45.00 
+Sample ./a.out 09 00   Output 90.00 
 Sample ./a.out 03 30   Output 75.00 
 Generate the output for 09 00, 03 30, 05 00, 08 45
 
